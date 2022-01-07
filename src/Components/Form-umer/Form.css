@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex: 1;
+
+}
+.main .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    width:50% ;
+    height: 100px;
+    background-color: whitesmoke;
+    font-size: 13px;
+}
+.main a{
+    /* margin-top: 22px; */
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 70;
+    
+}
+.main .date{
+    justify-content: center;
+    align-items: center;
+    /* width:25% ; */
+    flex: 1;
+    height: 100px;
+    background-color: whitesmoke;
+    font-size: 10px;
+}
+.main .refrence{
+    justify-content: center;
+    align-items: center;
+    /* width:25% ; */
+    flex: 1;
+    height: 100px;
+    background-color: whitesmoke;
+    font-size: 10px;
+}
